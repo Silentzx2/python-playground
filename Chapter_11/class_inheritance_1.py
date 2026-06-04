@@ -7,17 +7,12 @@ class employee:
 
 class coder:
 
-    def printlang(self):
+    def printlang(self, code):
         self.lang = self.lang
         print(f"the lang is {self.lang}")
-# class programmer:
-#     company = "ITC infotech"
-#     def show(self):
-#         print(f"name is {self.name} and the salary is {self.salary}")
-    
-#     def showlang(self):
-#         print(f"Name is {self.name} and the language is {self.lang}")
 
+    def printtxt(self):
+        print("i am just a robot")
 
 
 class programmer(employee, coder): # You can use like if you want to use multiple classes in one
@@ -34,3 +29,4 @@ a = programmer()
 b = employee()
 c = coder()
 a.show()
+a.printtxt()

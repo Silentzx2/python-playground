@@ -1,10 +1,11 @@
-class number:
+class add:
     def __init__(self, n):
         self.n = n
 
     def __add__(self, num):
         return self.n + num.n
-n = number(1)
-m = number(2)
+
+
+n = add(435)
+m = add(3)
 print(n + m)
-        

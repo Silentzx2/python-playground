@@ -1,20 +1,18 @@
-class calculater():
-    def __init__(self, n):
-        self.n = n
+class calculator:
+    def __init__(self, num):
+        self.num = num
+
     def square(self):
-        print(f"square of the number is: {self.n*self.n}")
+        print(f"The square of a number is {self.num*self.num}")
 
     def cube(self):
-        print(f"cube of the number is: {self.n*self.n*self.n}")
+        print(f"The cube of a number is {self.num*self.num*self.num}")
 
     def squareroot(self):
-        print(f"squareroot of the number is: {self.n**1/2}")
+        print(f"The squareroot of a number is {self.num**1/2}")
 
-    @staticmethod
-    def hello():
-        print("Hello world")
-        a = calculater(4)
-        a.square()
-        a.cube()
-        a.hello()
-        a.squareroot()
+c = calculator(4)
+c.square()
+c.cube()
+c.squareroot()
+    
