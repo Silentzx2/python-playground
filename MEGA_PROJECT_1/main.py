@@ -2,9 +2,6 @@
 
 
 # Modules
-import os
-os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
-os.environ["ALSA_LOG_LEVEL"] = "0"
 import speech_recognition as sr
 import webbrowser
 import pyttsx3
@@ -57,4 +54,4 @@ while True:
                 c = r.recognize_google(audio)
                 process_command(c)
     except Exception as e:
-        print("Error:", e)
+        print("Somthing went wrong!")
