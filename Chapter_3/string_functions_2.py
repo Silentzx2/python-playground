@@ -30,7 +30,7 @@ s.rstrip()          # right trim
 
 # Split & Join
 s.split()           # string to list
-" ".join(list)      # list to string
+# " ".join(list)      # list to string
 
 # Checking
 s.isalpha()         # only letters
